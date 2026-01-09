@@ -1,0 +1,14 @@
+{
+  "name": "intelliroad",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/backend & npm run dev -w apps/frontend",
+    "build": "npm run build -w apps/backend && npm run build -w apps/frontend",
+    "lint": "npm run lint -ws",
+    "deploy:local": "npm run deploy:local -w packages/contracts"
+  }
+}
