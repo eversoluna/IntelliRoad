@@ -16,6 +16,6 @@ IntelliRoad demonstrates how edge AI, async pipelines, and blockchain can work t
 2) `npm run dev` (starts backend + frontend)
 3) (Optional) Deploy contract: `npm run deploy:local`
 
-## Local:
+## Local Deploy:
 - Backend default: `http://localhost:4000`
 - Frontend default: `http://localhost:5173`
